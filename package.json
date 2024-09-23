@@ -1,0 +1,34 @@
+{
+  "name": "user-generated-content",
+  "version": "1.0.0",
+  "description": "An app for influnencer, content creater and bussiness owner to make content for promotions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "usmanbhatti.dev@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-jwt": "^8.4.1",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.2.0",
+    "firebase-admin": "^12.5.0",
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.8",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.4.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
